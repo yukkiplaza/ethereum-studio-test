@@ -1,0 +1,22 @@
+# 
+# Scenario1 
+# 
+# Created on: 2018/3/27 8:02:19 
+# 
+
+# Create contract Contract
+- from: '0xdedb49385ad5b94a16f236a6890cf9e0b1e30392'
+  to: null
+  value: '0x0'
+  contract:
+    name: Contract
+    dir: contracts/
+    sources:
+      - contract.sol
+      - std.sol
+    args: []
+
+- from: '0xdedb49385ad5b94a16f236a6890cf9e0b1e30392'
+  to: '0x17956ba5f4291844bc25aedb27e69bc11b5bda39'
+  value: '0x64'
+  data: null
