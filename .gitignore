@@ -1,5 +1,6 @@
 .c9
 .contract_cache/
+.solc_cache/
 db/
 node_modules
 app/public/dist
