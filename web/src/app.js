@@ -20,8 +20,8 @@ var abi = [
 
 //var sandboxId = 'f7b33fc068';
 var sandboxId = 'b318344051';
-var url = 'https://' + window.location.hostname + ':8555/sandbox/' + sandboxId;
-//var url = 'https://ethstudio.japaneast.cloudapp.azure.com:8555/sandbox/' + sandboxId;
+//var url = 'https://' + window.location.hostname + ':8555/sandbox/' + sandboxId;
+var url = 'https://ethstudio.japaneast.cloudapp.azure.com:8555/sandbox/' + sandboxId;
 var web3 = new Web3(new Web3.providers.HttpProvider(url));
 
 web3.eth.defaultAccount = '0xdedb49385ad5b94a16f236a6890cf9e0b1e30392';

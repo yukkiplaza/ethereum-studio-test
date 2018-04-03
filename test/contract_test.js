@@ -33,4 +33,9 @@ workbench.startTesting('contract', function(contracts) {
         return true;
       });
   });
+  
+  it('Contract test!!!', function(){
+    var str = 'Ethereum Studio Test!!!';
+    return contract.setString(str);
+  });
 });
